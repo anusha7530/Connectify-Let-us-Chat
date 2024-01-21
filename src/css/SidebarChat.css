@@ -1,0 +1,38 @@
+.sidebarChat{
+    display: flex;
+    padding: 20px;
+    cursor: pointer;
+    border-bottom: 1px solid #e6e3e3;
+}
+.sidebarChat:hover{
+    background-color: #ebebeb;
+}
+.info > h2{
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+.info{
+    margin-left: 15px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.del{
+    color: rgb(170, 169, 169);
+}
+.sidebarChat_search{
+    background-color: gray;
+    padding: 20px;
+}
+.addChat{
+    display: flex;
+    flex-direction: column;
+}
+.left{
+    display: flex;
+    justify-content: space-between;
+}
+.addChat > p{
+    font-size: 10px;
+}
