@@ -160,7 +160,7 @@ function Chat() {
           <div className="chatWithImage" key={messages.timestamp}>
           <div className="innerchat">
         <Avatar src={messages.photoURL}/>
-        <p className="chat_message" onDoubleClick={dele} key={messages.timestamp} >
+        <p className="chat_message" onDoubleClick={dele} key={messages.timestamp} id={messages.timestamp} >
           <span className="chat_name">{messages.name}</span>
           {messages.message}
           <span className="chat_time">{new Date(messages.timestamp?.toDate()).toUTCString()}</span>
